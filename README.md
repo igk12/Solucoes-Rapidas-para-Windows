@@ -1,0 +1,1 @@
+# Solucoes-Rapidas-para-Windows
