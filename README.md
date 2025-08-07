@@ -2,7 +2,7 @@
 
 Este é um script em lote (.bat) para Windows, projetado para simplificar o gerenciamento de energia e fornecer acesso rápido a diversas ferramentas de suporte e diagnóstico do sistema. Ele foi criado para ajudar usuários a otimizar o desempenho, solucionar problemas de rede, verificar a integridade do sistema e realizar tarefas de manutenção de forma eficiente, tudo através de um menu interativo.
 
-##Funcionalidades Principais
+## Funcionalidades Principais
 O script oferece um menu principal com as seguintes categorias de ferramentas:
 
 Gerenciamento de Energia: Permite configurar planos de energia, habilitar/desabilitar hibernação e visualizar as configurações atuais.
@@ -16,11 +16,11 @@ Diagnóstico e Monitoramento: Acesso a monitores de desempenho e confiabilidade,
 + Configurações de Exibição de Arquivos: Permite controlar a visibilidade de extensões e arquivos/pastas ocultos.
 + Ações do Sistema: Atalhos para reiniciar, bloquear ou desligar o computador.
   
-##Requisitos
+## Requisitos
 + Sistema Operacional: Windows (testado em versões modernas como Windows 10/11).
 + Privilégios: O script deve ser executado como Administrador. Ao tentar executá-lo, o Windows solicitará permissão de administrador. Se não for executado como administrador, o script exibirá uma mensagem de erro e será encerrado.
   
-##Como Usar
+## Como Usar
 1. Baixe o arquivo .bat para o seu computador.
 2. Clique com o botão direito do mouse no arquivo .bat e selecione "Executar como administrador".
 3. Um console de comando será aberto com o menu principal.
@@ -29,7 +29,7 @@ Diagnóstico e Monitoramento: Acesso a monitores de desempenho e confiabilidade,
 6. Para voltar ao menu principal, escolha a opção "Voltar ao Menu Principal" (ou similar) nos sub-menus.
 7. Para sair do script, escolha a opção "Sair" no menu principal.
 
-##Observações Importantes e Riscos
+## Observações Importantes e Riscos
 + Execução como Administrador: Muitas das ações realizadas por este script modificam configurações do sistema ou acessam áreas restritas do Windows. A execução como administrador é essencial e garante que as operações sejam concluídas com sucesso.
 + Modificações no Sistema: Algumas opções (como as de gerenciamento de energia, editor de registro, CHKDSK, DISM, limpeza da lixeira) fazem alterações diretas no sistema. Sempre entenda o que cada opção faz antes de executá-la.
 + Reinicialização do Explorer: As opções de "Configurações de Exibição de Arquivos" reiniciam o processo do Windows Explorer. Isso fechará todas as janelas do Explorador de Arquivos abertas.
@@ -37,8 +37,8 @@ Diagnóstico e Monitoramento: Acesso a monitores de desempenho e confiabilidade,
 + CHKDSK e Diagnóstico de Memória: O CHKDSK (Verificar Disco) e o Diagnóstico de Memória do Windows podem agendar verificações que exigem uma reinicialização do sistema e podem levar um tempo considerável para serem concluídas.
 + Conexão com a Internet: Ferramentas como DISM (Restaurar Integridade do Sistema) e o teste de velocidade da internet requerem uma conexão ativa com a internet.
 
-##Contato
-Este projeto foi desenvolvido por Igor Cardoso.
-Sinta-se à vontade para se conectar comigo no LinkedIn: [in/igor.cardoso86](https://www.linkedin.com/in/igorcardoso86/)
+## Contato
+> Este projeto foi desenvolvido por Igor Cardoso.
+> Sinta-se à vontade para se conectar comigo no LinkedIn: [in/igor.cardoso86](https://www.linkedin.com/in/igorcardoso86/)
 
 
